@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E52C2BB296879D000FF522A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C2BA296879D000FF522A /* AppDelegate.swift */; };
+		1E52C2BD296879D000FF522A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C2BC296879D000FF522A /* SceneDelegate.swift */; };
+		1E52C2BF296879D000FF522A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C2BE296879D000FF522A /* ViewController.swift */; };
+		1E52C2C2296879D000FF522A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E52C2C0296879D000FF522A /* Main.storyboard */; };
+		1E52C2C4296879D100FF522A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E52C2C3296879D100FF522A /* Assets.xcassets */; };
+		1E52C2C7296879D100FF522A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E52C2C5296879D100FF522A /* LaunchScreen.storyboard */; };
+		1E52C2E22968827300FF522A /* ScreenSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C2E12968827300FF522A /* ScreenSize.swift */; };
+		1E52C2E42968843900FF522A /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C2E32968843900FF522A /* UIButton+Extension.swift */; };
+		1E52C2E6296886F300FF522A /* ExerciseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E52C2E5296886F300FF522A /* ExerciseModel.swift */; };
+		1EFC830B29719CDE00EE6ACD /* ExerciseProg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC830A29719CDE00EE6ACD /* ExerciseProg.swift */; };
+		1EFC830D29719CE900EE6ACD /* ExerciseProg.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFC830C29719CE900EE6ACD /* ExerciseProg.xib */; };
+		1EFC830F29719DA200EE6ACD /* ExerciseProgExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC830E29719DA200EE6ACD /* ExerciseProgExtension.swift */; };
+		1EFC831129719FFA00EE6ACD /* NavigationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC831029719FFA00EE6ACD /* NavigationHelper.swift */; };
+		1EFC83142971A0C500EE6ACD /* ExerciseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC83132971A0C500EE6ACD /* ExerciseBuilder.swift */; };
+		1EFC83172971A17600EE6ACD /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC83152971A17600EE6ACD /* ExerciseViewController.swift */; };
+		1EFC83182971A17600EE6ACD /* ExerciseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFC83162971A17600EE6ACD /* ExerciseViewController.xib */; };
+		1EFC831B2971A44800EE6ACD /* MuscleProgressBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC831A2971A44800EE6ACD /* MuscleProgressBuilder.swift */; };
+		1EFC831E2971A56B00EE6ACD /* MuscleProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC831C2971A56B00EE6ACD /* MuscleProgressViewController.swift */; };
+		1EFC831F2971A56B00EE6ACD /* MuscleProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EFC831D2971A56B00EE6ACD /* MuscleProgressViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E52C2B7296879D000FF522A /* GYMming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GYMming.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E52C2BA296879D000FF522A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E52C2BC296879D000FF522A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1E52C2BE296879D000FF522A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E52C2C1296879D000FF522A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E52C2C3296879D100FF522A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E52C2C6296879D100FF522A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E52C2C8296879D100FF522A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E52C2E12968827300FF522A /* ScreenSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSize.swift; sourceTree = "<group>"; };
+		1E52C2E32968843900FF522A /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		1E52C2E5296886F300FF522A /* ExerciseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseModel.swift; sourceTree = "<group>"; };
+		1EFC830A29719CDE00EE6ACD /* ExerciseProg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseProg.swift; sourceTree = "<group>"; };
+		1EFC830C29719CE900EE6ACD /* ExerciseProg.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseProg.xib; sourceTree = "<group>"; };
+		1EFC830E29719DA200EE6ACD /* ExerciseProgExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseProgExtension.swift; sourceTree = "<group>"; };
+		1EFC831029719FFA00EE6ACD /* NavigationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHelper.swift; sourceTree = "<group>"; };
+		1EFC83132971A0C500EE6ACD /* ExerciseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseBuilder.swift; sourceTree = "<group>"; };
+		1EFC83152971A17600EE6ACD /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		1EFC83162971A17600EE6ACD /* ExerciseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExerciseViewController.xib; sourceTree = "<group>"; };
+		1EFC831A2971A44800EE6ACD /* MuscleProgressBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleProgressBuilder.swift; sourceTree = "<group>"; };
+		1EFC831C2971A56B00EE6ACD /* MuscleProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuscleProgressViewController.swift; sourceTree = "<group>"; };
+		1EFC831D2971A56B00EE6ACD /* MuscleProgressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MuscleProgressViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E52C2B4296879D000FF522A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E52C2AE296879D000FF522A = {
+			isa = PBXGroup;
+			children = (
+				1E52C2B9296879D000FF522A /* GYMming */,
+				1E52C2B8296879D000FF522A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E52C2B8296879D000FF522A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2B7296879D000FF522A /* GYMming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E52C2B9296879D000FF522A /* GYMming */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2DE296881F500FF522A /* Utilities */,
+				1E52C2DB2968810A00FF522A /* Network */,
+				1E52C2D12968804C00FF522A /* Scene */,
+				1E52C2CE29687F3800FF522A /* App */,
+				1E52C2BE296879D000FF522A /* ViewController.swift */,
+				1E52C2C8296879D100FF522A /* Info.plist */,
+			);
+			path = GYMming;
+			sourceTree = "<group>";
+		};
+		1E52C2CE29687F3800FF522A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2D029687F5500FF522A /* Asset */,
+				1E52C2CF29687F4000FF522A /* Delegate */,
+				1E52C2C5296879D100FF522A /* LaunchScreen.storyboard */,
+				1E52C2C0296879D000FF522A /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1E52C2CF29687F4000FF522A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2BC296879D000FF522A /* SceneDelegate.swift */,
+				1E52C2BA296879D000FF522A /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		1E52C2D029687F5500FF522A /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2C3296879D100FF522A /* Assets.xcassets */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		1E52C2D12968804C00FF522A /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2D4296880CB00FF522A /* ExerciseProgram */,
+				1E52C2D3296880B900FF522A /* WaterCounter */,
+				1E52C2D22968807300FF522A /* MuscleProgress */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		1E52C2D22968807300FF522A /* MuscleProgress */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2EB29688A9900FF522A /* CustomUI */,
+				1E52C2DA296880F800FF522A /* ViewModel */,
+				1E52C2D9296880F500FF522A /* View */,
+			);
+			path = MuscleProgress;
+			sourceTree = "<group>";
+		};
+		1E52C2D3296880B900FF522A /* WaterCounter */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2D8296880EF00FF522A /* ViewModel */,
+				1E52C2D7296880EA00FF522A /* View */,
+			);
+			path = WaterCounter;
+			sourceTree = "<group>";
+		};
+		1E52C2D4296880CB00FF522A /* ExerciseProgram */ = {
+			isa = PBXGroup;
+			children = (
+				1EFC83122971A0B100EE6ACD /* Builder */,
+				1E52C2D6296880E200FF522A /* ViewModel */,
+				1E52C2D5296880DB00FF522A /* View */,
+			);
+			path = ExerciseProgram;
+			sourceTree = "<group>";
+		};
+		1E52C2D5296880DB00FF522A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EFC830A29719CDE00EE6ACD /* ExerciseProg.swift */,
+				1EFC830C29719CE900EE6ACD /* ExerciseProg.xib */,
+				1EFC830E29719DA200EE6ACD /* ExerciseProgExtension.swift */,
+				1EFC83152971A17600EE6ACD /* ExerciseViewController.swift */,
+				1EFC83162971A17600EE6ACD /* ExerciseViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E52C2D6296880E200FF522A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E52C2D7296880EA00FF522A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E52C2D8296880EF00FF522A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E52C2D9296880F500FF522A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EFC83192971A42B00EE6ACD /* Builder */,
+				1EFC831C2971A56B00EE6ACD /* MuscleProgressViewController.swift */,
+				1EFC831D2971A56B00EE6ACD /* MuscleProgressViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E52C2DA296880F800FF522A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E52C2DB2968810A00FF522A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2DD2968811400FF522A /* Model */,
+				1E52C2DC2968811000FF522A /* Service */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1E52C2DC2968811000FF522A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1E52C2DD2968811400FF522A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2E5296886F300FF522A /* ExerciseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E52C2DE296881F500FF522A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2E02968820300FF522A /* Helper */,
+				1E52C2DF296881FC00FF522A /* Extension */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1E52C2DF296881FC00FF522A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2E32968843900FF522A /* UIButton+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1E52C2E02968820300FF522A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1E52C2E12968827300FF522A /* ScreenSize.swift */,
+				1EFC831029719FFA00EE6ACD /* NavigationHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1E52C2EB29688A9900FF522A /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		1EFC83122971A0B100EE6ACD /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1EFC83132971A0C500EE6ACD /* ExerciseBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		1EFC83192971A42B00EE6ACD /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				1EFC831A2971A44800EE6ACD /* MuscleProgressBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E52C2B6296879D000FF522A /* GYMming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E52C2CB296879D100FF522A /* Build configuration list for PBXNativeTarget "GYMming" */;
+			buildPhases = (
+				1E52C2B3296879D000FF522A /* Sources */,
+				1E52C2B4296879D000FF522A /* Frameworks */,
+				1E52C2B5296879D000FF522A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GYMming;
+			productName = GYMming;
+			productReference = 1E52C2B7296879D000FF522A /* GYMming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E52C2AF296879D000FF522A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1E52C2B6296879D000FF522A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1E52C2B2296879D000FF522A /* Build configuration list for PBXProject "GYMming" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E52C2AE296879D000FF522A;
+			productRefGroup = 1E52C2B8296879D000FF522A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E52C2B6296879D000FF522A /* GYMming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E52C2B5296879D000FF522A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E52C2C7296879D100FF522A /* LaunchScreen.storyboard in Resources */,
+				1E52C2C4296879D100FF522A /* Assets.xcassets in Resources */,
+				1EFC831F2971A56B00EE6ACD /* MuscleProgressViewController.xib in Resources */,
+				1E52C2C2296879D000FF522A /* Main.storyboard in Resources */,
+				1EFC83182971A17600EE6ACD /* ExerciseViewController.xib in Resources */,
+				1EFC830D29719CE900EE6ACD /* ExerciseProg.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E52C2B3296879D000FF522A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFC83142971A0C500EE6ACD /* ExerciseBuilder.swift in Sources */,
+				1E52C2E6296886F300FF522A /* ExerciseModel.swift in Sources */,
+				1EFC831E2971A56B00EE6ACD /* MuscleProgressViewController.swift in Sources */,
+				1E52C2BF296879D000FF522A /* ViewController.swift in Sources */,
+				1E52C2BB296879D000FF522A /* AppDelegate.swift in Sources */,
+				1E52C2E22968827300FF522A /* ScreenSize.swift in Sources */,
+				1EFC830F29719DA200EE6ACD /* ExerciseProgExtension.swift in Sources */,
+				1EFC831B2971A44800EE6ACD /* MuscleProgressBuilder.swift in Sources */,
+				1EFC830B29719CDE00EE6ACD /* ExerciseProg.swift in Sources */,
+				1E52C2E42968843900FF522A /* UIButton+Extension.swift in Sources */,
+				1E52C2BD296879D000FF522A /* SceneDelegate.swift in Sources */,
+				1EFC83172971A17600EE6ACD /* ExerciseViewController.swift in Sources */,
+				1EFC831129719FFA00EE6ACD /* NavigationHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E52C2C0296879D000FF522A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E52C2C1296879D000FF522A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E52C2C5296879D100FF522A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E52C2C6296879D100FF522A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E52C2C9296879D100FF522A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E52C2CA296879D100FF522A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E52C2CC296879D100FF522A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSGZPL6D9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GYMming/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GymingTest;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozbagdatli.GYMming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E52C2CD296879D100FF522A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KSGZPL6D9M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GYMming/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GymingTest;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ozbagdatli.GYMming;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E52C2B2296879D000FF522A /* Build configuration list for PBXProject "GYMming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E52C2C9296879D100FF522A /* Debug */,
+				1E52C2CA296879D100FF522A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E52C2CB296879D100FF522A /* Build configuration list for PBXNativeTarget "GYMming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E52C2CC296879D100FF522A /* Debug */,
+				1E52C2CD296879D100FF522A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E52C2AF296879D000FF522A /* Project object */;
+}
